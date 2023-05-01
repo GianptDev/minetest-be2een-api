@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 256 256.00001"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="be2een_logo.svg"
+   inkscape:export-filename="be2een_logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title1558">Be2een logo</title>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="2.0917228"
+     inkscape:cx="107.08876"
+     inkscape:cy="141.03207"
+     inkscape:window-width="1304"
+     inkscape:window-height="745"
+     inkscape:window-x="54"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid132"
+       empspacing="8" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid134"
+       empspacing="1"
+       spacingx="64.000001"
+       spacingy="64.000001" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="offset"
+       id="path-effect486"
+       is_visible="true"
+       lpeversion="1.2"
+       linejoin_type="miter"
+       unit="px"
+       offset="-16"
+       miter_limit="4"
+       attempt_force_join="false"
+       update_on_knot_move="true" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path244"
+       style="fill:#1a1a1a;stroke-width:17.282"
+       d="M 32,32 A 96,112 0 0 0 78.888672,128 96,112 0 0 0 32,224 H 224 A 96,112 0 0 0 177.27539,127.88281 96,112 0 0 0 224,32 Z" />
+    <path
+       id="path484"
+       style="fill:#deaa87;stroke-width:17.282"
+       d="M 49.271484,48 H 206.72656 c -3.99813,28.12584 -18.09057,52.4459 -38.60742,66.76172 l -18.80469,13.12109 18.80469,13.1211 C 188.69596,155.36165 202.81265,179.77928 206.76367,208 H 49.271484 c 4.006513,-28.19375 18.155859,-52.55853 38.744141,-66.85938 L 106.93555,128 88.015625,114.85938 C 67.427342,100.55853 53.277997,76.193755 49.271484,48 Z"
+       inkscape:path-effect="#path-effect486"
+       inkscape:original-d="M 32,32 A 96,112 0 0 0 78.888672,128 96,112 0 0 0 32,224 H 224 A 96,112 0 0 0 177.27539,127.88281 96,112 0 0 0 224,32 Z" />
+    <path
+       id="path877"
+       style="mix-blend-mode:color-burn;fill:#999999;fill-opacity:1;stroke-width:16"
+       d="m 136,168 c -24,16 -64,-8 -71.999997,32 H 192 c -8,-24 -32,-48 -56,-32 z m -8,-40 C 104,120 72,96 64,72 c 56,32 88,-32 128,0 -8,24 -40,48 -64,56 z" />
+  </g>
+  <metadata
+     id="metadata1556">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Be2een logo</dc:title>
+        <dc:date>22.4.2023</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>_gianpy_</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
