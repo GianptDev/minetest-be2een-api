@@ -1,1 +1,3 @@
 _docs/build/
+_release/
+__pycache__/
