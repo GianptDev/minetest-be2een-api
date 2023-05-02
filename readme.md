@@ -22,7 +22,9 @@ Add the dependency in your mod and use the namespace to access the api functiona
 
 ## Wiki
 
-Currenlty no wiki or documentatio page exists, however the code has comments using the [sumnkeno annotation](https://github.com/LuaLS/lua-language-server) so you can still have info about methods.
+Currenlty no wiki or documentation page exists, however the code has comments using the [sumnkeno annotation](https://github.com/LuaLS/lua-language-server) so you can still have info about methods.
+
+The comments include small examples about usage and full details about properties and parameters.
 
 ## Contribute
 
