@@ -3,7 +3,7 @@
 	<img src="screenshot.png">
 </p>
 
-[![ContentDB](https://content.minetest.net/packages/_gianpy_/api_be2een/shields/downloads/)](https://content.minetest.net/packages/_gianpy_/api_between/)
+[![ContentDB](https://content.minetest.net/packages/_gianpy_/api_be2een/shields/downloads/)](https://content.minetest.net/packages/_gianpy_/api_be2een/)
 ![](https://img.shields.io/github/license/GianptDev/minetest-be2een-api)
 
 # Be2een Api
