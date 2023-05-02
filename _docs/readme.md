@@ -8,3 +8,7 @@ Install sphinx:
 Install theme:
 
 	pip install sphinx-rtd-theme
+
+Currently no wiki :( I need to find a way to automatize it, there are too many functions.
+
+This folder is unused but is kept if one day I'll decide to finalize the wiki.

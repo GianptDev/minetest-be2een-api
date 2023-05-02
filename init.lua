@@ -10,11 +10,6 @@ local cos = math.cos;
 local sqrt = math.sqrt;
 local pi = math.pi;
 
--- --- Folder inside the world where the api will store his configurations.
--- --- @type string
--- --- @since 1.0
--- local storage = minetest.get_worldpath() .. "/be2een";
-
 --- List of active timers processed by the server.
 --- @type table<integer, Be2eenApi.Timer>
 --- @since 1.0
@@ -38,8 +33,7 @@ Be2eenApi = {};
 --[[
 Get the current version of the api as a string with 2 dots to separate major number, minor number and release type.
 
-	"[major].[minor].[release]" -- structure of the version
-	"1.0.dev" -- example
+The structure of the string is `[major].[minor].[release]` example: `1.0.dev`
 
 ### Note
 * The **dev** release comes from the repository and is intended to be used for development purpose because it may contain experimental functionality.
@@ -140,25 +134,6 @@ function Be2eenApi.animate(start, finish, time, callback)
 	end
 	return tween:start();
 end
-
-
--- unused
--- --[[
--- Reload the configuration file saved in the world storage.
--- ]]
--- --- @since 1.0
--- function Be2eenApi.reload()
--- 	local file = io.open(storage .. "/settings.json", "r");
-
--- 	if file then
--- 		minetest.log("info", "[be2een] reload : loading configurations from world folder.");
--- 		local settings = minetest.parse_json(file:read());
-
--- 		if settings then
--- 			if type(settings["time_speed"]) == "number" then Be2eenApi.time_speed = settings["time_speed"]; end
--- 		end
--- 	end
--- end
 
 --- -- Timer class
 
@@ -867,28 +842,6 @@ minetest.register_chatcommand("be2een", {
 		return true, message;
 	end
 });
-
-
--- minetest.register_on_mods_loaded(Be2eenApi.reload);
-
-
--- minetest.register_on_shutdown(function()
--- 	--- force timers to stop, they will not be saved.
--- 	for _, timer in ipairs(queue_timer) do
--- 		if timer.onStopped then timer:onStopped(); end
--- 	end
-
--- 	if not minetest.mkdir(storage) then
--- 		minetest.log("error",
--- 		("[be2een] (storage) : ops, failed to make folder '%s' for configurations."):format(storage));
--- 		return;
--- 	end
-
--- 	minetest.log("info", "[be2een] (storage) : writing settings...");
--- 	minetest.safe_file_write(storage .. "/settings.json", minetest.write_json({
--- 		time_speed = Be2eenApi.time_speed
--- 	}));
--- end);
 
 
 minetest.register_globalstep(function(dtime) --- @param dtime number
